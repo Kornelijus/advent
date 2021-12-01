@@ -2,7 +2,7 @@
 
 from sys import argv
 
-part1 = lambda d: sum(1 for i, j in zip(d, d[1:]+d[:1]) if i < j)
+part1 = lambda d: sum(i < j for i, j in zip(d, d[1:]))
 part2 = lambda d: part1([ sum(d[i:i+3]) for i in range(len(d)) ])
 
 if __name__ == '__main__':
