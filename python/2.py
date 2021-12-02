@@ -20,7 +20,3 @@ if __name__ == '__main__':
 
     print(f"Part 1: {pos * aim}")
     print(f"Part 2: {pos * dth}")
-
-
-
-
