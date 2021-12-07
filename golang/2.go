@@ -1,14 +1,15 @@
+// --- Day 2: Dive! ---
+
 package main
 
 import (
 	"bufio"
-	"fmt"
 	"os"
 	"strconv"
 	"strings"
 )
 
-func main() {
+func day2() (uint64, uint64) {
 	file, err := os.Open("../inputs/2.txt")
 
 	if err != nil {
@@ -39,6 +40,5 @@ func main() {
 		}
 	}
 
-	fmt.Println("Part 1:", pos*aim)
-	fmt.Println("Part 2:", pos*dth)
+	return pos * aim, pos * dth
 }
