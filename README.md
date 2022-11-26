@@ -1,2 +1,3 @@
-# 🎄 Advent of Code 2021
-My solutions for Advent of Code 2021 (if I don't end up giving up halfway through)
+# 🎄 Advent of Code
+
+My solutions for Advent of Code, including previous years, for trying out languages new to me.
