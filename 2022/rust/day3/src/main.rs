@@ -44,7 +44,7 @@ fn main() {
         }
     }
 
-    println!("Advent of Code 2022, Day 2!");
+    println!("Advent of Code 2022, Day 3!");
     println!("Part 1: {:?}", part1);
     println!("Part 2: {:?}", part2);
 }
