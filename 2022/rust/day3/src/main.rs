@@ -20,19 +20,6 @@ fn main() {
     let mut part1: u32 = 0;
     let mut part2: u32 = 0;
 
-    lines.clone().for_each(|rucksack| {
-        let (first, second) = rucksack
-            .split_in_half()
-            .expect("for rucksack to have an even amount of characters");
-
-        for item in rucksack.chars() {
-            if first.contains(item) && second.contains(item) {
-                part1 += item_priority(item);
-                break;
-            }
-        }
-    });
-
     for rucksack in lines.clone() {
         let (first, second) = rucksack
             .split_in_half()
